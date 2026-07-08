@@ -1,0 +1,95 @@
+[
+  {
+    "metadataOutputVersion" : "3.0",
+    "storagePrecision" : "Mixed (Float16, Palettized (4 bits), UInt4)",
+    "outputSchema" : [
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float16",
+        "formattedType" : "MultiArray (Float16 1 × 256 × 49)",
+        "shortDescription" : "",
+        "shape" : "[1, 256, 49]",
+        "name" : "logits",
+        "type" : "MultiArray"
+      }
+    ],
+    "modelParameters" : [
+
+    ],
+    "specificationVersion" : 9,
+    "mlProgramOperationTypeHistogram" : {
+      "Ios18.linear" : 37,
+      "Ios18.constexprLutToDense" : 39,
+      "Ios18.scaledDotProductAttention" : 6,
+      "Ios18.expandDims" : 2,
+      "Select" : 3,
+      "Ios18.sub" : 1,
+      "Ios18.gelu" : 6,
+      "Ios18.gather" : 2,
+      "Ios18.add" : 16,
+      "Tile" : 1,
+      "Ios18.layerNorm" : 13,
+      "Ios18.cast" : 3,
+      "Ios18.transpose" : 24,
+      "Ios18.reshape" : 24,
+      "Ios18.greaterEqual" : 2
+    },
+    "computePrecision" : "Mixed (Float16, Int32, UInt16)",
+    "isUpdatable" : "0",
+    "stateSchema" : [
+
+    ],
+    "availability" : {
+      "macOS" : "15.0",
+      "tvOS" : "18.0",
+      "visionOS" : "2.0",
+      "watchOS" : "11.0",
+      "iOS" : "18.0",
+      "macCatalyst" : "18.0"
+    },
+    "modelType" : {
+      "name" : "MLModelType_mlProgram"
+    },
+    "userDefinedMetadata" : {
+      "com.github.apple.coremltools.conversion_date" : "2026-07-06",
+      "com.github.apple.coremltools.source" : "torch==2.12.1",
+      "com.github.apple.coremltools.version" : "9.0",
+      "com.github.apple.coremltools.source_dialect" : "TorchExport::ATEN"
+    },
+    "inputSchema" : [
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Int32",
+        "formattedType" : "MultiArray (Int32 1 × 256)",
+        "shortDescription" : "",
+        "shape" : "[1, 256]",
+        "name" : "input_ids",
+        "type" : "MultiArray"
+      },
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Int32",
+        "formattedType" : "MultiArray (Int32 1 × 256)",
+        "shortDescription" : "",
+        "shape" : "[1, 256]",
+        "name" : "attention_mask",
+        "type" : "MultiArray"
+      },
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Int32",
+        "formattedType" : "MultiArray (Int32 1 × 256)",
+        "shortDescription" : "",
+        "shape" : "[1, 256]",
+        "name" : "token_type_ids",
+        "type" : "MultiArray"
+      }
+    ],
+    "generatedClassName" : "masker_mini_4bit",
+    "method" : "predict"
+  }
+]

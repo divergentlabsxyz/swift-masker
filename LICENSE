@@ -1,0 +1,91 @@
+# Offchain Studio Source License, Version 1.0
+
+Dated: 6 July 2026
+
+Licensor: Offchain Studio, registered with the Dutch Chamber of Commerce (Kamer van Koophandel) under KvK number 92717810.
+
+This is a source-available license. It is not an open source license as defined by the Open Source Initiative, because it limits free use by size.
+
+## 1. Acceptance
+
+By using the Software you agree to this license. If you do not agree, you have no license. The obligations in this license are both conditions of the licenses granted to you and independent obligations you owe the Licensor.
+
+## 2. Definitions
+
+- **Licensor** means Offchain Studio, KvK number 92717810.
+- **Software** means each work that the Licensor releases under this license, including its source code, model weights, and documentation, as identified in the notice that accompanies that work.
+- **Notice** means the file the Licensor distributes with the Software that identifies the Software, its functional category, the Licensor, and the contact address for commercial licensing.
+- **Output** means any data the Software produces, including predictions, labels, redactions, embeddings, logits, and generated text.
+- **You** means the individual or legal entity exercising rights under this license.
+- **Your Company** means you, together with every entity that controls you, is controlled by you, or is under common control with you. Control means holding a majority of voting rights, or the power to direct management by contract or otherwise.
+- **Use** means anything you do with the Software that requires one of the licenses granted here.
+- **Monthly Active Devices** (**MAD**) means the number of distinct end-user devices on which the Software executes at least once during a calendar month, counted across all applications and services of Your Company.
+- **Revenue** means the total worldwide gross revenue of Your Company over its most recent completed financial year, determined under the accounting standards Your Company applies to its statutory accounts.
+- **Permitted Use** has the meaning given in Section 4.
+- **Commercial License** means a separate written license from the Licensor covering use beyond Permitted Use.
+
+## 3. Copyright and Patent License
+
+Subject to this license, the Licensor grants you a worldwide, royalty-free, non-exclusive license to use, reproduce, modify, create derivative works of, and distribute the Software, solely for Permitted Use.
+
+The Licensor also grants you, for Permitted Use, a license under patent claims the Licensor can license that you would infringe by using the Software as provided. This patent license ends immediately if you or Your Company assert, in any forum, that the Software infringes a patent.
+
+## 4. Permitted Use (free tier)
+
+Your Use is Permitted Use only while **both** of the following are true for Your Company:
+
+(a) MAD does not exceed **150,000** in any calendar month; and
+
+(b) Revenue does not exceed **EUR 1,000,000**.
+
+If **either** threshold is exceeded, your Use stops being Permitted Use, and you need a Commercial License to continue using the Software.
+
+## 5. Commercial License
+
+If your Use is not Permitted Use, you must obtain a Commercial License before you continue using the Software.
+
+The Licensor will offer a Commercial License on fair and reasonable terms, and will not discriminate between licensees in comparable situations. Request one at the contact address stated in the Notice.
+
+## 6. Restrictions on training other models
+
+Section 3 lets you modify the Software and create derivative works of it for Permitted Use. This section limits how you may use the Software and its Output to build a separate model.
+
+You may not use the Software, its Output, or logs of its Output to train, fine-tune, distill, or otherwise develop a machine learning model that provides functionality substantially similar to the Software. Where the Notice states a functional category for the Software, a model that provides functionality in that category is treated as substantially similar. Creating a derivative work of the Software itself under Section 3 is not restricted by this section.
+
+This restriction is a contractual obligation and does not depend on whether copyright protects the Output. The Licensor expressly reserves, under Article 4(3) of Directive (EU) 2019/790, the right to opt out of text and data mining of the Software and its Output.
+
+## 7. Conditions on distribution
+
+When you distribute the Software or a derivative of it, you must:
+
+(a) include a copy of this license, or its URL, and a copy of the Notice; and
+
+(b) keep intact all copyright and license notices, and any line beginning "Required Notice:" that the Licensor includes with the Software.
+
+You may not sublicense the Software. Each recipient receives its license directly from the Licensor under these terms.
+
+## 8. Verification
+
+Once per calendar year, on 14 days' written notice, the Licensor may ask you to confirm in writing Your Company's MAD and Revenue for the relevant period. You must respond accurately. The Licensor will keep that information confidential and use it only to check compliance with this license.
+
+## 9. Term and termination
+
+This license lasts as long as the Licensor holds copyright in the Software.
+
+If you breach this license, your licenses end automatically. If the Licensor notifies you of the breach in writing, and you cure it and take reasonable steps to correct past breaches within 30 days of that notice, your licenses are reinstated. This reinstatement applies only to your first such notice. A later breach ends your licenses permanently.
+
+## 10. No warranty
+
+To the maximum extent permitted by law, the Software is provided "as is", without any warranty or condition. The Licensor does not warrant that the Software is error-free, accurate, or fit for any particular purpose.
+
+## 11. Liability
+
+To the maximum extent permitted by law, the Licensor is not liable for any damage arising out of this license or out of use of the Software. This limitation does not apply to damage caused by the Licensor's intent (opzet) or deliberate recklessness (bewuste roekeloosheid), and does not exclude any liability that cannot be excluded under mandatory Dutch law.
+
+## 12. Governing law and jurisdiction
+
+This license is governed by the laws of the Netherlands, excluding its conflict-of-law rules and the UN Convention on Contracts for the International Sale of Goods (CISG). Disputes arising out of or relating to this license are submitted exclusively to the District Court of Amsterdam (Rechtbank Amsterdam), without prejudice to any jurisdiction that mandatory law assigns elsewhere, including mandatory consumer rules.
+
+## 13. Miscellaneous
+
+If any provision of this license is held unenforceable, the rest stays in effect, and the unenforceable provision applies to the maximum extent permitted. For Permitted Use, this license is the entire agreement about the Software between you and the Licensor. Only the Licensor can change this license, by publishing a new version.
