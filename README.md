@@ -6,7 +6,7 @@ classifier model.
 
 | Layer                          | Handles                                                | How                                                               |
 | ------------------------------ | ------------------------------------------------------ | ----------------------------------------------------------------- |
-| **Deterministic** (pure Swift) | emails, IP v4/v6, IBAN, credit cards, Dutch gov-IDs    | regex + **checksum** validation (Luhn, ISO 7064 mod-97, elfproef) |
+| **Deterministic** (pure Swift) | emails, IP v4/v6, IBAN, credit cards, gov-IDs          | regex + **checksum** validation (Luhn, ISO 7064 mod-97, elfproef) |
 | **Neural** (Core ML)           | names, cities, streets, dates, ages, phones, zip codes | `masker-mini`, 256-token BIOES token classifier                   |
 
 The deterministic layer is exact (a match must pass its checksum) and needs no
@@ -20,7 +20,7 @@ set where **`text[entity.range] == entity.text`** always holds.
 ## Install
 
 ```swift
-.package(url: "https://…/mask-swift.git", from: "0.1.0")
+.package(url: "https://github.com/amsintelligence/swift-mask.git", from: "0.1.0")
 ```
 
 Platforms: **iOS 18+, macOS 15+** (Swift 6).
