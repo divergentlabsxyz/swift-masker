@@ -20,7 +20,7 @@ set where **`text[entity.range] == entity.text`** always holds.
 ## Install
 
 ```swift
-.package(url: "https://github.com/amsintelligence/swift-mask.git", from: "0.1.0")
+.package(url: "https://github.com/amsintelligence/swift-masker.git", from: "0.1.0")
 ```
 
 Platforms: **iOS 18+, macOS 15+** (Swift 6).
