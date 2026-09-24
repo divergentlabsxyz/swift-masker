@@ -1,8 +1,8 @@
 # Masker
 
 On-device PII detection, redaction, and **reversible masking** for iOS & macOS,
-built around the [`amsintelligence/masker-mini`](https://huggingface.co/amsintelligence/masker-mini)
-classifier model.
+built around the [`divergentlabs/masker-mini`](https://huggingface.co/divergentlabs/masker-mini)
+classifier model (v2 bundled).
 
 | Layer                          | Handles                                                | How                                                               |
 | ------------------------------ | ------------------------------------------------------ | ----------------------------------------------------------------- |
@@ -20,7 +20,7 @@ set where **`text[entity.range] == entity.text`** always holds.
 ## Install
 
 ```swift
-.package(url: "https://github.com/amsintelligence/swift-masker.git", from: "0.1.0")
+.package(url: "https://github.com/divergentlabsxyz/swift-masker.git", from: "0.2.0")
 ```
 
 Platforms: **iOS 18+, macOS 15+** (Swift 6).
@@ -37,6 +37,12 @@ let masker = try await Masker()                // full hybrid; the model is bund
 The Core ML model and tokenizer ship **inside the package** — no download, no
 setup. `Masker()` loads them; `deterministicOnly()` skips the model when you only
 need structured PII.
+
+The bundled model is **masker-mini v2** (4-bit Core ML, 18 MB). Compared with
+v1 it finds person names on real-world text much more reliably (names F1
+0.627 → 0.774 on real court judgments and Dutch news). See the
+[model card](https://huggingface.co/divergentlabs/masker-mini) for evaluation
+and limitations.
 
 ### Detection only
 

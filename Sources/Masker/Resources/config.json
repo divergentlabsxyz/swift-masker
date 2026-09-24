@@ -122,5 +122,5 @@
   "transformers_version": "4.57.6",
   "type_vocab_size": 2,
   "use_cache": true,
-  "vocab_size": 64361
+  "vocab_size": 63896
 }
