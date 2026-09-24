@@ -1,9 +1,9 @@
-This work is licensed under the Offchain Studio Source License, Version 1.0.
-Full terms: https://ai.basement.dev/license
+swift-masker
+Copyright 2026 Offchain Studio
 
-Software: MASKER-MINI
-Functional category: PII detection and redaction
-Licensor: Offchain Studio, KvK 92717810
-Commercial license requests: licensing@basement.dev
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
 
-Required Notice: MASKER-MINI (c) 2026 Offchain Studio
+It bundles the masker-mini model (https://huggingface.co/divergentlabs/masker-mini),
+also Apache-2.0, which derives from mDeBERTa-v3 (microsoft/mdeberta-v3-base,
+MIT License, Copyright (c) Microsoft Corporation) and was trained on
+third-party datasets listed on its model card, which keep their own licenses.

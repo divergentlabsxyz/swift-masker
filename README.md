@@ -20,7 +20,7 @@ set where **`text[entity.range] == entity.text`** always holds.
 ## Install
 
 ```swift
-.package(url: "https://github.com/divergentlabsxyz/swift-masker.git", from: "0.2.0")
+.package(url: "https://github.com/divergentlabsxyz/swift-masker.git", from: "0.2.1")
 ```
 
 Platforms: **iOS 18+, macOS 15+** (Swift 6).
@@ -95,6 +95,8 @@ swift run masker-demo     # prints detect / redact / mask / unmask on a sample
 
 ## License
 
-The `masker-mini` model is under the Offchain Studio Source License v1.0
-(commercial licensing via licensing@basement.dev). This SDK wraps it; check the
-model card for terms before shipping.
+Apache License, Version 2.0 — the SDK and the bundled `masker-mini` model alike.
+See [`LICENSE`](LICENSE) and [`NOTICE`](NOTICE).
+
+Releases from v0.2.0 on are Apache-2.0. v0.1.0 was released under the
+Offchain Studio Source License, Version 1.0, and remains under those terms.
